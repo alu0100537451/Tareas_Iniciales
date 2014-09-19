@@ -6,6 +6,7 @@ Lo primero que debemos instalar Rvm (Ruby Version Manager) nos permite instalar 
 ## Instalación RVM(Ruby Version Manager)
 
 Para instalar deberemos ejecutar los siguientes comandos_:
+
 $ \curl -L https://get.rvm.io | bash -s stable
 
 ![RVM](imagenes/instalacionrvm.png)
