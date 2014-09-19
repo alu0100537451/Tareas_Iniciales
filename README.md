@@ -12,7 +12,7 @@ $ \curl -L https://get.rvm.io | bash -s stable
 
  En caso de tener instalado para actualizar la version de rvm:
  
-![RVM](imagenes/rubygetstable.png)
+![RVM](imagenes/rubystable.png)
 
 También podemos saber la versión de ruby instalada y que se esta utilizando de la siguiente manera:
 
@@ -41,12 +41,14 @@ Gema sinatra:Es un DSL para crear aplicaciones web rápido y con esfuerzo mínim
 
 La podremos instalar con el comando:gem install sinatra
 
-![Sinatra](imagenes/sinatra.png)
+![Sinatra](imagenes/Sinatra.png)
 
 ##Instalación Gema Bundler
 
 bundler install
+
 bundle update
+
 Para poder comprobar el funcionamiento se crea un Gemfile en un proyecto, y una vez creado, se hace los siguiente:
 
 
