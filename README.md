@@ -1,20 +1,20 @@
-#Tutorial Rvm,Ruby y Git
+##Tutorial Rvm,Ruby y Git
 
 Lo primero que debemos instalar Rvm (Ruby Version Manager) nos permite instalar y gestionar varios intérpretes ruby y conjuntos de gemas (gemsets).
 
 
 ## Instalación RVM(Ruby Version Manager)
 
-Para instalar deberemos ejecutar los siguientes comandos_:$ \curl -L https://get.rvm.io | bash -s stable
+Para instalar deberemos ejecutar los siguientes comandos_:
+$ \curl -L https://get.rvm.io | bash -s stable
 
 ![RVM](imagenes/instalacionrvm.png)
 
+ En caso de tener instalado para actualizar la version de rvm:
+ 
+![RVM](imagenes/rubygetstable.png)
 
-
-
-Esto nos mostrara la version instalada de rvm.
-
-##También podemos saber la versión de ruby instalada y que se esta utilizando de la siguiente manera:
+También podemos saber la versión de ruby instalada y que se esta utilizando de la siguiente manera:
 
 ruby -v
 
@@ -32,8 +32,7 @@ apt-get install git
 ![Git](imagenes/gitversion.png)
 
 ##Instalación de Gemas
-
-Como ejemplo sólo vamos a instalar tres gemas, pero se puede instalar las que se desee o se necesiten (Ruby Gems). 
+ 
 La manera de instalar una gema es la siguiente:
 
 gem install [gem]
@@ -57,6 +56,6 @@ Para poder comprobar el funcionamiento se crea un Gemfile en un proyecto, y una 
 
 gem install twitter
 
-![Twitter](imagenes/git01.png)
+![Twitter](imagenes/twitter.png)
 
 
